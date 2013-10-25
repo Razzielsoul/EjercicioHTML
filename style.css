@@ -7,3 +7,8 @@ aside {
 	width: 300px;
 	min-height: 400px;
 }
+
+section img {
+	width: 30px;
+	height: 30px;
+}
