@@ -5,16 +5,17 @@ body {
 aside {
 	float: left;
 	width: 200px;
-	min-height: 510px;
+	min-height: 500px;
 	background-color: #9AD7FF;
 	padding-left: 20px;
+	padding-top: 10px;
 }
 
 article {
 	padding-top: 10px;
 	background-color: #D5FEFF;
 	min-height: 500px;
-	width: 800px;
+	width: 700px;
 }
 
 section {
@@ -35,7 +36,7 @@ hr {
 #avatar {
 	float: right;
 	padding-left: 100px;
-	padding-right: 100px;
+	padding-right: 50px;
 	width: 100px;
 	height: 100px;
 }
