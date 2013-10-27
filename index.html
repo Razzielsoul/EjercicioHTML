@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 		<title>index</title>
-		
+
 		<link rel="stylesheet" href="style.css"/>
 	</head>
 
@@ -16,35 +16,48 @@
 		<aside>
 			<p>
 				<img src="./images/logo.jpg"/>
-			</p>
-			<p>
-				<a href="/">Home page</a>
-			</p>
-			<p>
-				<a href="/company">Company</a>
-			</p>
-			<p>
-				<a href="/pictures">My pictures</a>
-			</p>
-			<p>
-				<a href="/miscellaneous">Miscellaneous</a>
+				<ul>
+					<li>
+						<a href="/">Home page</a>
+					</li>
+					<li>
+						<a href="/company">Company</a>
+					</li>
+					<li>
+						<a href="/pictures">My pictures</a>
+					</li>
+					<li>
+						<a href="/miscellaneous">Miscellaneous</a>
+					</li>
+				</ul>
 			</p>
 		</aside>
 		<article>
 			<section>
 				<p>
-					<b>My Name (left)</b>
-					<br>
-					My position (left)
-					<br>
-					<br>
-					My department (center)
-					<br>
-					My company (center)
+					<img src="images/avatar.jpg" id="avatar"/>
 				</p>
+				<p>
+					<div id="nombre">
+						My Name (left)
+					</div>
+					<div id="posicion">
+						My position (left)
+					</div>
+					<br>
+					<div class="pequeña">
+						<a id="departamento"> My department </a>
+						(center)
+						<br>
+						<a id="company"> My company </a>
+						(center)
+					</div>
+				</p>
+				<hr>
 			</section>
 			<section class="datos">
-				<img src="images/arroba.jpg"/><a href="mailto: email@aaa.com">email@aaa.com</a>
+				<img src="images/arroba.jpg"/>
+				<a href="mailto: email@aaa.com">email@aaa.com</a>
 				<br>
 				<img src="images/telefono.jpg"/>Telephone numer
 				<br>
@@ -53,11 +66,12 @@
 				<img src="images/buzon.png"/>My address
 				<br>
 				<img src="images/facebook.png"/>
-				My Facebook page
+				<a href="http://www.facebook.com">My Facebook page</a>
+
 			</section>
 		</article>
 		<footer>
-			
+
 		</footer>
 	</body>
 </html>

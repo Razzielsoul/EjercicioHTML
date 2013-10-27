@@ -4,11 +4,59 @@ body {
 
 aside {
 	float: left;
-	width: 300px;
-	min-height: 400px;
+	width: 200px;
+	min-height: 510px;
+	background-color: #9AD7FF;
+	padding-left: 20px;
+}
+
+article {
+	padding-top: 10px;
+	background-color: #D5FEFF;
+	min-height: 500px;
+	width: 800px;
+}
+
+section {
+	padding-left: 250px;
+	padding-right: 50px;
 }
 
 section img {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
+}
+
+hr {
+	position: relative;
+	width: 80%;
+}
+
+#avatar {
+	float: right;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+#nombre {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#posicion {
+	color: blue;
+}
+
+#departamento {
+	color: green;
+}
+
+#company {
+	font-style: italic;
+}
+
+.pequeña {
+	font-size: 12px;
 }
