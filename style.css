@@ -5,10 +5,8 @@ body {
 aside {
 	float: left;
 	width: 200px;
-	min-height: 500px;
+	min-height: 510px;
 	background-color: #9AD7FF;
-	padding-left: 20px;
-	padding-top: 10px;
 }
 
 article {
@@ -33,10 +31,14 @@ hr {
 	width: 80%;
 }
 
+#logo {
+	margin: 15px;
+}
+
 #avatar {
 	float: right;
-	padding-left: 100px;
-	padding-right: 50px;
+	padding-left: 70px;
+	padding-right: 40px;
 	width: 100px;
 	height: 100px;
 }
