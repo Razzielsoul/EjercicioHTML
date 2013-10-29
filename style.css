@@ -44,8 +44,7 @@ hr {
 }
 
 #nombre {
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 20px;
 }
 
 #posicion {
@@ -62,4 +61,5 @@ hr {
 
 .pequeña {
 	font-size: 12px;
+	text-align: center;
 }
